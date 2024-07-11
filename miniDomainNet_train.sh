@@ -1,1 +1,0 @@
-python3 main.py --cfg configs/miniDomainNet.yaml OUTPUT_DIR log TRAINER.BETA 1.0 TRAINER.LAMBDA 0.05 TRAINER.KAPPA 10 SAVE False LOG_NAME 'log_lr0.001_beta1_lambda005_epoch50_kappa10_miniDomainNet.txt'

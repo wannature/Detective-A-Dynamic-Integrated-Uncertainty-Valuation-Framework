@@ -1,1 +1,0 @@
-python main.py --cfg configs/home.yaml OUTPUT_DIR log TRAINER.BETA 1.0 TRAINER.LAMBDA 0.05 TRAINER.KAPPA 10 SAVE False LOG_NAME 'log_lr0002_beta1_lambda005_epoch50_kappa10.txt'
