@@ -27,11 +27,11 @@ Active Domain Adaptation (ADA) aims to maximally boost model adaptation in a new
 ### Dataset Preparation
 
 * Download [Office-Home Dataset](https://www.hemanthdv.org/officeHomeDataset.html)
-* Download [[DomainNet Dataset]](https://ai.bu.edu/M3SDA/#dataset) and [miniDomainNet splits](https://drive.google.com/file/d/15rrLDCrzyi6ZY-1vJar3u7plgLe4COL7/view)
+* Download [DomainNet Dataset](https://ai.bu.edu/M3SDA/#dataset) and [miniDomainNet splits](https://drive.google.com/file/d/15rrLDCrzyi6ZY-1vJar3u7plgLe4COL7/view)
 
 ### Training
 
-You need to edit the configurations in the `./configs/<dataset_name>.yaml` file that corresponding to certain dataset.
+You need to edit the configurations in the `./configs/<dataset_name>.yaml` file that corresponding to certain dataset:
 
 ```yaml
 <dataset_name>.yaml
@@ -63,8 +63,6 @@ You need to edit the configurations in the `./configs/<dataset_name>.yaml` file 
 ├── TRAINER
 │   ├── NAME
 │   ├── MAX_EPOCHS
-│   ├── BETA
-│   ├── LAMBDA
 │   ├── CLIP_GRAD_NORM
 ├── NETWORK
 │   ├── Z_DIM
